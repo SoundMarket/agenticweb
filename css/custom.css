@@ -102,9 +102,13 @@ max-width: 1540px;
 
 @media (min-width: 992px) {
 	.col-lg-6 {
-		flex: 0 0 100%;
+		flex: 0 0 auto;
 		margin: 0 auto;
 		text-align: center !important;
+	}
+
+	.col-flex-box{
+				flex: 0 0 100%;
 	}
 }
 
