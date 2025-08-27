@@ -47,6 +47,11 @@
 
 /*$ ---------------------------------------------- */
 /*# Agentic Web */
+
+.container-menu{
+max-width: 1540px;
+}
+
 .navbar-nav {
 	column-gap: 5px;
 }
@@ -97,7 +102,7 @@
 
 @media (min-width: 992px) {
 	.col-lg-6 {
-		flex: 0 0 auto;
+		flex: 0 0 100%;
 		margin: 0 auto;
 		text-align: center !important;
 	}
