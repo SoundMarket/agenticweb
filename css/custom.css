@@ -1,0 +1,171 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Hanlding Updates
+-----------------------------------------------------------------*/
+
+.text_logo {
+	text-transform: uppercase;
+	margin-bottom: 0;
+	font-weight: 500;
+	font-size: 2rem;
+}
+.width_text {
+	width: 70%;
+}
+.fa-microphone {
+	animation: pulse 2s infinite;
+	margin-left: 35%;
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1.1);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+.red_text {
+	color: red;
+}
+.content-start {
+	justify-content: flex-start;
+}
+.margin_box {
+	margin-top: 7%;
+}
+
+#styles-switcher #reset-color {
+	background: #2dbe60;
+}
+
+/*$ ---------------------------------------------- */
+/*# Agentic Web */
+.navbar-nav {
+	column-gap: 5px;
+}
+
+.navbar-nav {
+	column-gap: 5px;
+}
+
+.d-none {
+	display: none !important;
+}
+
+@media (min-width: 1400px) {
+	.d-sm-block {
+		display: block !important;
+	}
+
+	.d-block {
+		display: none !important;
+	}
+}
+
+@media (max-width: 1400px) {
+	.d-sm-none {
+		display: block !important;
+	}
+
+	.d-none {
+		display: none !important;
+	}
+}
+
+@media (min-width: 576px) {
+	.ms-sm-2 {
+		margin-left: 0px !important;
+	}
+}
+
+@media (min-width: 992px) {
+	.me-lg-3 {
+		margin-right: clamp(0.625rem, 0.215rem + 0.66vw, 1rem) !important;
+	}
+}
+
+.fa-microphone {
+	margin-left: 30%;
+}
+
+@media (min-width: 992px) {
+	.col-lg-6 {
+		flex: 0 0 auto;
+		margin: 0 auto;
+		text-align: center !important;
+	}
+}
+
+@media (min-width: 992px) {
+	.col-lg-6-indv {
+		text-align: left !important;
+	}
+}
+
+.elem-indent {
+	margin-bottom: 0.75rem !important;
+}
+
+.box-element {
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	column-gap: 1.25rem;
+	row-gap: 1.15rem;
+}
+
+@media (max-width: 730px) {
+	.box-element {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.box-element__link-page-explore {
+		width: 100%;
+	}
+}
+
+.box-element--option {
+	&:not(:last-child) {
+		margin-bottom: 2rem;
+	}
+}
+
+.box-element__link-page-explore {
+	background-color: #2dbe60;
+	border-color: #2dbe60;
+	box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
+	padding: 0.6rem 1.5rem;
+	font-weight: 500;
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	border-radius: 4px;
+	color: #fff;
+	text-align: center;
+
+	transition: all 0.25s ease-in;
+}
+
+.box-element__link-page-explore:hover {
+	background-color: #26a151;
+	border-color: #26a151;
+	color: #fff;
+}
+
+.box-element__sub-title {
+	font-size: 1.25rem;
+	margin-bottom: 0px !important;
+}
+
+.container--popular-bids:not(:last-child) {
+	margin-bottom: 2.5rem;
+}
