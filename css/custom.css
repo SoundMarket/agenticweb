@@ -48,8 +48,8 @@
 /*$ ---------------------------------------------- */
 /*# Agentic Web */
 
-.container-menu{
-max-width: 1540px;
+.container-menu {
+	max-width: 1540px;
 }
 
 .navbar-nav {
@@ -107,8 +107,8 @@ max-width: 1540px;
 		text-align: center !important;
 	}
 
-	.col-flex-box{
-				flex: 0 0 100%;
+	.col-flex-box {
+		flex: 0 0 100%;
 	}
 }
 
@@ -178,3 +178,17 @@ max-width: 1540px;
 .container--popular-bids:not(:last-child) {
 	margin-bottom: 2.5rem;
 }
+
+@media (min-width: 1200px) {
+	.text-12-title {
+		font-size: 2.7rem !important;
+		text-align: center;
+	}
+
+	.gx-lg-5-block{
+		max-width: 1250px !important;
+		margin: 0 auto;
+	}
+}
+
+
