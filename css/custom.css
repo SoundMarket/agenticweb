@@ -185,10 +185,16 @@
 		text-align: center;
 	}
 
-	.gx-lg-5-block{
+	.gx-lg-5-block {
 		max-width: 1250px !important;
 		margin: 0 auto;
 	}
 }
 
+.link-dark {
+	color: #212529 !important;
+}
 
+.d-block-view{
+	display: block !important;
+}

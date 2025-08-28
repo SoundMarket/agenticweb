@@ -2,63 +2,53 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
+	<meta charset="UTF-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
-
-	<!--* Favicon-->
 	<link href="images/favicon.ico" rel="icon">
-	<!--! Favicon end-->
+	<title>Deworking</title>
+	<meta name="description" content="Deworking is a blockchain platform for decentralized work and collaboration. Create and develop your projects and tasks.">
 
-	<!--* Title-->
-	<title>Soundmarket</title>
-	<!--! Title end-->
 
-	<!--* Description-->
-	<meta name="description" content="Sound Market is a blockchain‑powered platform for decentralized audio creation, collaboration, licensing, and NFT commerce">
-	<!--! Description end-->
-
-	<!--* Author-->
-	<meta name="author" content="Sound Market">
-	<!--! Author end-->
-
-	<!--* Web Fonts-->
+	<!-- Web Fonts-->
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap">
 
-	<!--* Stylesheet-->
+	<!-- Stylesheet-->
 	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="vendor/font-awesome/css/all.min.css">
 	<link rel="stylesheet" type="text/css" href="vendor/owl.carousel/assets/owl.carousel.min.css">
 	<link rel="stylesheet" type="text/css" href="vendor/bootstrap-select/css/bootstrap-select.min.css">
 	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+	<link rel="stylesheet" href="css/custom.css">
 </head>
 
 <body>
 
-	<!--* Preloader-->
+	<!-- Preloader -->
 	<div id="preloader">
 		<div data-loader="dual-ring"></div>
 	</div>
-	<!--! Preloader end-->
+	<!-- Preloader End -->
 
-	<!--* Document Wrapper-->
+	<!-- Document Wrapper   -->
 	<div id="main-wrapper">
 
-		<!--* Header-->
+		<!--* Header -->
 		<header id="header" class="sticky-lg-top">
 			<nav class="primary-menu navbar navbar-expand-lg">
+				<div class="container position-relative container-menu">
 
-				<div class="container position-relative">
+					<!--* Logo -->
+					<div class="logo me-1 me-sm-2 me-lg-3">
+						<a class="d-flex" href="index.html" title="Agentic Web">
+							<img class="d-none d-sm-block" src="images/logo.svg" alt="Agentic Web">
+							<img class="d-block d-sm-none" width="40px" height="33px" src="images/logo-sm.svg" alt="Agentic Web"></a>
+					</div>
+					<!--! Logo end -->
 
-					<!--* Logo-->
-					<div class="logo me-1 me-sm-2 me-lg-3"> <a class="d-flex" href="index.html" title="Soundmarket"> <img class="d-none d-sm-block" src="images/logo.svg" alt="Soundmarket"> <img class="d-block d-sm-none" src="images/logo-sm.svg" alt="Soundmarket"> </a> </div>
-					<!--! Logo end-->
-
-					<!--* Collapse Button-->
+					<!--* Collapse Button -->
 					<button class="navbar-toggler me-auto" type="button" data-bs-toggle="collapse" data-bs-target="#header-nav"> <span></span> <span></span> <span></span> </button>
-					<!--! Collapse Button end-->
-
-					<div id="header-nav" class="collapse navbar-collapse">
+					<!--! Collapse Button end -->
 
 					<!--* Navigation -->
 					<div id="header-nav" class="collapse navbar-collapse">
@@ -138,27 +128,27 @@
 				</div>
 			</nav>
 		</header>
-		<!--! Preloader end-->
+		<!--! Header End -->
 
-		<!--* Page Header-->
+		<!-- Page Header-->
 		<section class="page-header page-header-light py-5 mb-0">
 			<div class="container">
 				<div class="row text-center">
 					<div class="col-12">
 						<ul class="breadcrumb mb-0">
 							<li><a href="index.html">Home</a></li>
-							<li class="active">Rankings</li>
+							<li class="active">Stats</li>
 						</ul>
 					</div>
 					<div class="col-12">
-						<h1 class="text-12">Top NFTs</h1>
+						<h1 class="text-12">Top Projects</h1>
 					</div>
 				</div>
 			</div>
 		</section>
-		<!--! Page Header-->
+		<!-- Page Header end -->
 
-		<!--* Content-->
+		<!-- Content-->
 		<div id="content">
 			<div class="section pt-5 bg-white">
 				<div class="container">
@@ -172,37 +162,24 @@
 							</select>
 						</div>
 						<div class="col-auto col-lg-2">
-							<select class="selectpicker form-control show-tick" data-style="form-select form-select-sm rounded-pill fw-500" title="Category" data-container="body">
-								<option data-icon="fas fa-border-all text-3 me-2" value="">All</option>
-								<option data-icon="fas fa-image text-3 me-2" value="">Vocals</option>
-								<option data-icon="fas fa-th text-3 me-2" value="">Beats</option>
-								<option data-icon="fas fa-search text-3 me-2" value="">Sound Effects</option>
-								<option data-icon="fas fa-music text-3 me-1" value="">Mixing</option>
-								<option data-icon="fas fa-camera-retro text-3 me-1" value="">Licenses</option>
-								<option data-icon="fas fa-running text-3 me-1" value="">Instrumental</option>
-								<option data-icon="fas fa-address-card text-3 me-1" value="">Tracks</option>
-								<option data-icon="fas fa-globe-americas text-3 me-1" value="">Podcast</option>
+							<select class="selectpicker form-control show-tick" data-style="form-select form-select-sm rounded-pill fw-500" title="Status" data-container="body">
+								<option value="">Active</option>
+								<option value="">Closed</option>
 							</select>
 						</div>
-						<div class="col-auto col-lg-2">
-							<select class="selectpicker form-control show-tick" data-style="form-select form-select-sm rounded-pill fw-500" title="Blockchain" data-container="body" data-allow-clear="true" multiple>
-								<option data-content="<img class='rounded-circle me-2' alt='' src='images/chain/ethereum.webp'> Ethereum" value="">Ethereum</option>
-								<option data-content="<img class='rounded-circle me-2' alt='' src='images/chain/tezos.webp'> Tezos" value="">Tezos</option>
-								<option data-content="<img class='rounded-circle me-2' alt='' src='images/chain/flow.webp'> Flow" value="">Flow</option>
-							</select>
-						</div>
+
 					</div>
 					<div class="table-responsive">
 						<table class="table table-hover text-3 fw-500">
 							<thead>
 								<tr class="bg-light">
-									<td class="py-3">Collection</td>
-									<td class="text-end pb-3">Volume</td>
+									<td class="py-3">Project</td>
+									<td class="text-end pb-3">Budget</td>
 									<td class="text-end pb-3">24h %</td>
 									<td class="text-end pb-3">7d %</td>
-									<td class="text-end pb-3">Avg. Price</td>
-									<td class="text-end pb-3">Owners</td>
-									<td class="text-end pb-3">Items</td>
+									<td class="text-end pb-3">Avg. Budget</td>
+									<td class="text-end pb-3">Entries</td>
+									<td class="text-end pb-3">Tasks</td>
 								</tr>
 							</thead>
 							<tbody class="border-top">
@@ -210,8 +187,8 @@
 									<td>
 										<div class="d-flex align-items-center my-2">
 											<div class="text-3 me-3 fw-400">1</div>
-											<div class="position-relative d-flex me-3"> <img class="img-thumb rounded-circle border" src="images/collections/item-collection-1.webp" alt=""> <span data-bs-toggle="tooltip" title="" class="position-absolute bottom-0 end-0 d-flex text-3 text-primary bg-white rounded-circle" data-bs-original-title="Verified Collection"><i class="fas fa-check-circle"></i></span></div>
-											<a class="text-3 link-dark fw-500 stretched-link" href="collection.html">Echoes</a>
+											<div class="position-relative d-flex me-3"> <img class="img-thumb rounded-circle border" src="images/projects/proj1.webp" alt=""> <span data-bs-toggle="tooltip" title="" class="position-absolute bottom-0 end-0 d-flex text-3 text-primary bg-white rounded-circle" data-bs-original-title="Verified Collection"><i class="fas fa-check-circle"></i></span></div>
+											<a class="text-3 link-dark fw-500 stretched-link" href="project.html">Cleopatra</a>
 										</div>
 									</td>
 									<td class="text-end">$3,911,243</td>
@@ -225,8 +202,8 @@
 									<td>
 										<div class="d-flex align-items-center my-2">
 											<div class="text-3 me-3 fw-400">2</div>
-											<div class="position-relative d-flex me-3"> <img class="img-thumb rounded-circle border" src="images/collections/item-collection-2.webp" alt=""> <span data-bs-toggle="tooltip" title="" class="position-absolute bottom-0 end-0 d-flex text-3 text-primary bg-white rounded-circle" data-bs-original-title="Verified Collection"><i class="fas fa-check-circle"></i></span></div>
-											<a class="text-3 link-dark fw-500 stretched-link" href="collection.html">Resonance</a>
+											<div class="position-relative d-flex me-3"> <img class="img-thumb rounded-circle border" src="images/projects/proj12.webp" alt=""> <span data-bs-toggle="tooltip" title="" class="position-absolute bottom-0 end-0 d-flex text-3 text-primary bg-white rounded-circle" data-bs-original-title="Verified Collection"><i class="fas fa-check-circle"></i></span></div>
+											<a class="text-3 link-dark fw-500 stretched-link" href="project.html">Freddy the Cat</a>
 										</div>
 									</td>
 									<td class="text-end">$3,175,914</td>
@@ -240,8 +217,8 @@
 									<td>
 										<div class="d-flex align-items-center my-2">
 											<div class="text-3 me-3 fw-400">3</div>
-											<div class="position-relative d-flex me-3"> <img class="img-thumb rounded-circle border" src="images/collections/item-collection-3.webp" alt=""> <span data-bs-toggle="tooltip" title="" class="position-absolute bottom-0 end-0 d-flex text-3 text-primary bg-white rounded-circle" data-bs-original-title="Verified Collection"><i class="fas fa-check-circle"></i></span></div>
-											<a class="text-3 link-dark fw-500 stretched-link" href="collection.html">Pulse</a>
+											<div class="position-relative d-flex me-3"> <img class="img-thumb rounded-circle border" src="images/projects/proj2.webp" alt=""> <span data-bs-toggle="tooltip" title="" class="position-absolute bottom-0 end-0 d-flex text-3 text-primary bg-white rounded-circle" data-bs-original-title="Verified Collection"><i class="fas fa-check-circle"></i></span></div>
+											<a class="text-3 link-dark fw-500 stretched-link" href="project.html">Virtuoso</a>
 										</div>
 									</td>
 									<td class="text-end">$2,862,432</td>
@@ -255,8 +232,8 @@
 									<td>
 										<div class="d-flex align-items-center my-2">
 											<div class="text-3 me-3 fw-400">4</div>
-											<div class="position-relative d-flex me-3"> <img class="img-thumb rounded-circle border" src="images/collections/item-collection-4.webp" alt=""> <span data-bs-toggle="tooltip" title="" class="position-absolute bottom-0 end-0 d-flex text-3 text-primary bg-white rounded-circle" data-bs-original-title="Verified Collection"><i class="fas fa-check-circle"></i></span></div>
-											<a class="text-3 link-dark fw-500 stretched-link" href="collection.html">Mosaic</a>
+											<div class="position-relative d-flex me-3"> <img class="img-thumb rounded-circle border" src="images/projects/proj3.webp" alt=""> <span data-bs-toggle="tooltip" title="" class="position-absolute bottom-0 end-0 d-flex text-3 text-primary bg-white rounded-circle" data-bs-original-title="Verified Collection"><i class="fas fa-check-circle"></i></span></div>
+											<a class="text-3 link-dark fw-500 stretched-link" href="project.html">The Queen's Secret</a>
 										</div>
 									</td>
 									<td class="text-end">$2,505,100</td>
@@ -270,8 +247,8 @@
 									<td>
 										<div class="d-flex align-items-center my-2">
 											<div class="text-3 me-3 fw-400">5</div>
-											<div class="position-relative d-flex me-3"> <img class="img-thumb rounded-circle border" src="images/collections/item-collection-5.webp" alt=""> <span data-bs-toggle="tooltip" title="" class="position-absolute bottom-0 end-0 d-flex text-3 text-primary bg-white rounded-circle" data-bs-original-title="Verified Collection"><i class="fas fa-check-circle"></i></span></div>
-											<a class="text-3 link-dark fw-500 stretched-link" href="collection.html">Voyage</a>
+											<div class="position-relative d-flex me-3"> <img class="img-thumb rounded-circle border" src="images/projects/proj4.webp" alt=""> <span data-bs-toggle="tooltip" title="" class="position-absolute bottom-0 end-0 d-flex text-3 text-primary bg-white rounded-circle" data-bs-original-title="Verified Collection"><i class="fas fa-check-circle"></i></span></div>
+											<a class="text-3 link-dark fw-500 stretched-link" href="project.html">Don Panda</a>
 										</div>
 									</td>
 									<td class="text-end">$1,978,989</td>
@@ -285,8 +262,8 @@
 									<td>
 										<div class="d-flex align-items-center my-2">
 											<div class="text-3 me-3 fw-400">6</div>
-											<div class="position-relative d-flex me-3"> <img class="img-thumb rounded-circle border" src="images/collections/item-collection-6.webp" alt=""> <span data-bs-toggle="tooltip" title="" class="position-absolute bottom-0 end-0 d-flex text-3 text-primary bg-white rounded-circle" data-bs-original-title="Verified Collection"><i class="fas fa-check-circle"></i></span></div>
-											<a class="text-3 link-dark fw-500 stretched-link" href="collection.html">Alchemy</a>
+											<div class="position-relative d-flex me-3"> <img class="img-thumb rounded-circle border" src="images/projects/proj5.webp" alt=""> <span data-bs-toggle="tooltip" title="" class="position-absolute bottom-0 end-0 d-flex text-3 text-primary bg-white rounded-circle" data-bs-original-title="Verified Collection"><i class="fas fa-check-circle"></i></span></div>
+											<a class="text-3 link-dark fw-500 stretched-link" href="project.html">Mission "Universe"</a>
 										</div>
 									</td>
 									<td class="text-end">$1,623,703</td>
@@ -300,8 +277,8 @@
 									<td>
 										<div class="d-flex align-items-center my-2">
 											<div class="text-3 me-3 fw-400">7</div>
-											<div class="position-relative d-flex me-3"> <img class="img-thumb rounded-circle border" src="images/collections/item-collection-7.webp" alt=""> <span data-bs-toggle="tooltip" title="" class="position-absolute bottom-0 end-0 d-flex text-3 text-primary bg-white rounded-circle" data-bs-original-title="Verified Collection"><i class="fas fa-check-circle"></i></span></div>
-											<a class="text-3 link-dark fw-500 stretched-link" href="collection.html">Spectrum</a>
+											<div class="position-relative d-flex me-3"> <img class="img-thumb rounded-circle border" src="images/projects/proj6.webp" alt=""> <span data-bs-toggle="tooltip" title="" class="position-absolute bottom-0 end-0 d-flex text-3 text-primary bg-white rounded-circle" data-bs-original-title="Verified Collection"><i class="fas fa-check-circle"></i></span></div>
+											<a class="text-3 link-dark fw-500 stretched-link" href="project.html">Bjorn the Conqueror</a>
 										</div>
 									</td>
 									<td class="text-end">$1,410,101</td>
@@ -315,8 +292,8 @@
 									<td>
 										<div class="d-flex align-items-center my-2">
 											<div class="text-3 me-3 fw-400">8</div>
-											<div class="position-relative d-flex me-3"> <img class="img-thumb rounded-circle border" src="images/collections/item-collection-8.webp" alt=""> <span data-bs-toggle="tooltip" title="" class="position-absolute bottom-0 end-0 d-flex text-3 text-primary bg-white rounded-circle" data-bs-original-title="Verified Collection"><i class="fas fa-check-circle"></i></span></div>
-											<a class="text-3 link-dark fw-500 stretched-link" href="collection.html">Odyssey</a>
+											<div class="position-relative d-flex me-3"> <img class="img-thumb rounded-circle border" src="images/projects/proj7.webp" alt=""> <span data-bs-toggle="tooltip" title="" class="position-absolute bottom-0 end-0 d-flex text-3 text-primary bg-white rounded-circle" data-bs-original-title="Verified Collection"><i class="fas fa-check-circle"></i></span></div>
+											<a class="text-3 link-dark fw-500 stretched-link" href="project.html">Pretty Sophie</a>
 										</div>
 									</td>
 									<td class="text-end">$951,743</td>
@@ -330,8 +307,8 @@
 									<td>
 										<div class="d-flex align-items-center my-2">
 											<div class="text-3 me-3 fw-400">9</div>
-											<div class="position-relative d-flex me-3"> <img class="img-thumb rounded-circle border" src="images/collections/item-collection-9.webp" alt=""> <span data-bs-toggle="tooltip" title="" class="position-absolute bottom-0 end-0 d-flex text-3 text-primary bg-white rounded-circle" data-bs-original-title="Verified Collection"><i class="fas fa-check-circle"></i></span></div>
-											<a class="text-3 link-dark fw-500 stretched-link" href="collection.html">Fusion</a>
+											<div class="position-relative d-flex me-3"> <img class="img-thumb rounded-circle border" src="images/projects/proj8.webp" alt=""> <span data-bs-toggle="tooltip" title="" class="position-absolute bottom-0 end-0 d-flex text-3 text-primary bg-white rounded-circle" data-bs-original-title="Verified Collection"><i class="fas fa-check-circle"></i></span></div>
+											<a class="text-3 link-dark fw-500 stretched-link" href="project.html">The Sword of the King</a>
 										</div>
 									</td>
 									<td class="text-end">$826,843</td>
@@ -345,8 +322,8 @@
 									<td>
 										<div class="d-flex align-items-center my-2">
 											<div class="text-3 me-3 fw-400">10</div>
-											<div class="position-relative d-flex me-3"> <img class="img-thumb rounded-circle border" src="images/collections/item-collection-10.webp" alt=""> <span data-bs-toggle="tooltip" title="" class="position-absolute bottom-0 end-0 d-flex text-3 text-primary bg-white rounded-circle" data-bs-original-title="Verified Collection"><i class="fas fa-check-circle"></i></span></div>
-											<a class="text-3 link-dark fw-500 stretched-link" href="collection.html">Euphoria</a>
+											<div class="position-relative d-flex me-3"> <img class="img-thumb rounded-circle border" src="images/projects/proj9.webp" alt=""> <span data-bs-toggle="tooltip" title="" class="position-absolute bottom-0 end-0 d-flex text-3 text-primary bg-white rounded-circle" data-bs-original-title="Verified Collection"><i class="fas fa-check-circle"></i></span></div>
+											<a class="text-3 link-dark fw-500 stretched-link" href="project.html">Dynasty of the East</a>
 										</div>
 									</td>
 									<td class="text-end">$700,713</td>
@@ -360,8 +337,8 @@
 									<td>
 										<div class="d-flex align-items-center my-2">
 											<div class="text-3 me-3 fw-400">11</div>
-											<div class="position-relative d-flex me-3"> <img class="img-thumb rounded-circle border" src="images/collections/item-collection-11.webp" alt=""> <span data-bs-toggle="tooltip" title="" class="position-absolute bottom-0 end-0 d-flex text-3 text-primary bg-white rounded-circle" data-bs-original-title="Verified Collection"><i class="fas fa-check-circle"></i></span></div>
-											<a class="text-3 link-dark fw-500 stretched-link" href="collection.html">Sessions</a>
+											<div class="position-relative d-flex me-3"> <img class="img-thumb rounded-circle border" src="images/projects/proj10.webp" alt=""> <span data-bs-toggle="tooltip" title="" class="position-absolute bottom-0 end-0 d-flex text-3 text-primary bg-white rounded-circle" data-bs-original-title="Verified Collection"><i class="fas fa-check-circle"></i></span></div>
+											<a class="text-3 link-dark fw-500 stretched-link" href="project.html">Space delivery</a>
 										</div>
 									</td>
 									<td class="text-end">$655,444</td>
@@ -375,8 +352,8 @@
 									<td>
 										<div class="d-flex align-items-center my-2">
 											<div class="text-3 me-3 fw-400">12</div>
-											<div class="position-relative d-flex me-3"> <img class="img-thumb rounded-circle border" src="images/collections/item-collection-12.webp" alt=""> <span data-bs-toggle="tooltip" title="" class="position-absolute bottom-0 end-0 d-flex text-3 text-primary bg-white rounded-circle" data-bs-original-title="Verified Collection"><i class="fas fa-check-circle"></i></span></div>
-											<a class="text-3 link-dark fw-500 stretched-link" href="collection.html">Horizons</a>
+											<div class="position-relative d-flex me-3"> <img class="img-thumb rounded-circle border" src="images/projects/proj11.webp" alt=""> <span data-bs-toggle="tooltip" title="" class="position-absolute bottom-0 end-0 d-flex text-3 text-primary bg-white rounded-circle" data-bs-original-title="Verified Collection"><i class="fas fa-check-circle"></i></span></div>
+											<a class="text-3 link-dark fw-500 stretched-link" href="project.html">Time of Akiko</a>
 										</div>
 									</td>
 									<td class="text-end">$221,416</td>
@@ -390,7 +367,8 @@
 						</table>
 					</div>
 
-					<!--* Pagination-->
+					<!-- Pagination
+		============================================= -->
 					<ul class="pagination justify-content-center mt-5 mb-0">
 						<li class="page-item disabled"> <a class="page-link" href="#" tabindex="-1"><i class="fas fa-angle-left"></i></a> </li>
 						<li class="page-item active"><a class="page-link" href="#">1</a></li>
@@ -400,82 +378,26 @@
 						<li class="page-item"><a class="page-link" href="#">15</a></li>
 						<li class="page-item"> <a class="page-link" href="#"><i class="fas fa-angle-right"></i></a> </li>
 					</ul>
-					<!--! Pagination-->
+					<!-- Paginations end -->
 
 				</div>
 			</div>
 
-			<!-- *Block Get the app-->
+			<!-- Mobile App
+		============================================= -->
 			<section class="section py-5">
 				<div class="container">
 					<div class="justify-content-center text-center">
 						<h2 class="text-9">Get the app</h2>
-						<p class="lead mb-4">Download our mobile app to buy, sell, and manage your audio NFTs - and scout performers anytime, anywhere.</p>
+						<p class="lead mb-4">Download our app for the fastest, most convenient way to start decentralized work</p>
 						<a class="d-inline-flex mx-3" href=""><img alt="" width="168" height="49" src="images/app-store.webp"></a> <a class="d-inline-flex mx-3" href=""><img alt="" width="166" height="49" src="images/google-play-store.webp"></a>
 					</div>
 				</div>
 			</section>
-			<!-- !Block END Get the app-->
+			<!-- Mobile App end -->
 
 		</div>
-		<!--! Content end-->
-
-		<!--* Footer-->
-		<footer id="footer">
-			<div class="container">
-
-				<!--* Footer menu-->
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-6 col-md mb-3 mb-md-0">
-							<h4 class="text-3 text-muted text-uppercase fw-400 mb-3">Marketplace</h4>
-							<ul class="nav flex-column">
-								<li class="nav-item"> <a class="nav-link" href="#">Vocals</a></li>
-								<li class="nav-item"> <a class="nav-link" href="#">Beats</a></li>
-								<li class="nav-item"> <a class="nav-link" href="#">Sound Effects</a></li>
-								<li class="nav-item"> <a class="nav-link" href="#">Mixing</a></li>
-								<li class="nav-item"> <a class="nav-link" href="#">Rental & Sync Licenses</a></li>
-							</ul>
-						</div>
-						<div class="col-sm-6 col-md mb-3 mb-md-0">
-							<h4 class="text-3 text-muted text-uppercase fw-400 mb-3">Resources</h4>
-							<ul class="nav flex-column">
-								<li class="nav-item"> <a class="nav-link" href="help.html">Help Center</a></li>
-								<li class="nav-item"> <a class="nav-link" href="#">Blog</a></li>
-								<li class="nav-item"> <a class="nav-link" href="#">Docs</a></li>
-								<li class="nav-item"> <a class="nav-link" href="contact-us.html">Contact Us</a></li>
-								<li class="nav-item"> <a class="nav-link" href="#">Support</a></li>
-							</ul>
-						</div>
-						<div class="col-sm-6 col-md mb-3 mb-md-0">
-							<h4 class="text-3 text-muted text-uppercase fw-400 mb-3">Information</h4>
-							<ul class="nav flex-column">
-								<li class="nav-item"> <a class="nav-link" href="about-us.html">About Us</a></li>
-								<li class="nav-item"> <a class="nav-link" href="#">Careers</a></li>
-								<li class="nav-item"> <a class="nav-link" href="#">Affiliate</a></li>
-								<li class="nav-item"> <a class="nav-link" href="#">Fees</a></li>
-							</ul>
-						</div>
-						<div class="col-sm-6 col-md mb-3 mb-md-0">
-							<h4 class="text-3 text-muted text-uppercase fw-400 mb-3">Keep in touch</h4>
-							<ul class="nav flex-column">
-								<li class="nav-item"> <a class="nav-link" href="#">Facebook</a></li>
-								<li class="nav-item"> <a class="nav-link" href="#">Twitter</a></li>
-								<li class="nav-item"> <a class="nav-link" href="#">Google</a></li>
-								<li class="nav-item"> <a class="nav-link" href="#">Youtube</a></li>
-							</ul>
-						</div>
-						<div class="col-12 col-lg-3">
-							<h4 class="text-3 text-muted text-uppercase fw-400 mb-3">Subscribe</h4>
-							<p>Subscribe to receive latest news and updates.</p>
-							<div class="input-group newsletter">
-								<input class="form-control" placeholder="Your Email Address" name="newsletterEmail" id="newsletterEmail" type="text">
-								<button class="btn btn-secondary shadow-none px-3" type="button" data-bs-toggle="tooltip" title="Subscribe"><i class="fas fa-paper-plane"></i></button>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!--! Footer menu end-->
+		<!-- Content end -->
 
 		<!--* Footer -->
 		<footer id="footer" class="pb-4">
@@ -549,34 +471,13 @@
 		</footer>
 		<!--! Footer end -->
 
-				<!--* Copyright-->
-				<div class="footer-copyright pt-3 pt-lg-2 mt-2">
-					<div class="row">
-						<div class="col-lg">
-							<p class="text-center text-lg-start mb-2 mb-lg-0 right-reserved">Test version &copy; 2025 <a href="#">SoundMarket.</a> All Rights Reserved.</p>
-						</div>
-						<div class="col-lg d-lg-flex align-items-center justify-content-lg-end">
-							<ul class="nav justify-content-center">
-								<li class="nav-item"> <a class="nav-link active" href="#">Security</a></li>
-								<li class="nav-item"> <a class="nav-link" href="#">Terms</a></li>
-								<li class="nav-item"> <a class="nav-link" href="#">Privacy</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				<!--! Copyright end-->
-
-			</div>
-		</footer>
-		<!--! Footer end-->
-
 	</div>
-	<!--! Document Wrapper end-->
+	<!-- Document Wrapper end -->
 
-	<!--* Back to Top-->
+	<!-- Back to Top-->
 	<a id="back-to-top" data-bs-toggle="tooltip" title="Back to Top" href="javascript:void(0)"><i class="fas fa-chevron-up"></i></a>
 
-	<!--* Script-->
+	<!-- Script -->
 	<script src="vendor/jquery/jquery.min.js"></script>
 	<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 	<script src="vendor/owl.carousel/owl.carousel.min.js"></script>
