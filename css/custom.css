@@ -195,6 +195,14 @@
 	color: #212529 !important;
 }
 
-.d-block-view{
+.d-block-view {
 	display: block !important;
+}
+
+
+.navbar > .container-blog {
+	display: flex;
+	flex-wrap: inherit;
+	align-items: center;
+	justify-content: space-between;
 }
