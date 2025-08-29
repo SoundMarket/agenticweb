@@ -199,10 +199,18 @@
 	display: block !important;
 }
 
-
 .navbar > .container-blog {
 	display: flex;
 	flex-wrap: inherit;
 	align-items: center;
 	justify-content: space-between;
+}
+
+.lh-base-cell{
+	display: flex;
+	height: 100%;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+	row-gap: 0.15rem;
 }

@@ -30,54 +30,85 @@
 	<!-- Document Wrapper-->
 	<div id="main-wrapper">
 
-		<!-- Header-->
+		<!--* Header -->
 		<header id="header" class="sticky-lg-top">
 			<nav class="primary-menu navbar navbar-expand-lg">
-				<div class="container position-relative">
+				<div class="container position-relative container-menu">
 
 					<!--* Logo -->
 					<div class="logo me-1 me-sm-2 me-lg-3">
 						<a class="d-flex" href="index.html" title="Agentic Web">
-							<img class="d-none d-sm-block" src="images/logo_d.svg" alt="Agentic Web">
-							<img class="d-block d-sm-none" width="40px" height="33px" src="images/logo-deworking.svg" alt="Agentic Web"></a>
+							<img class="d-none d-sm-block" src="images/logo.svg" alt="Agentic Web">
+							<img class="d-block d-sm-none" width="40px" height="33px" src="images/logo-sm.svg" alt="Agentic Web"></a>
 					</div>
 					<!--! Logo end -->
 
-					<!-- Collapse Button-->
+					<!--* Collapse Button -->
 					<button class="navbar-toggler me-auto" type="button" data-bs-toggle="collapse" data-bs-target="#header-nav"> <span></span> <span></span> <span></span> </button>
-					<!-- Collapse Button end -->
+					<!--! Collapse Button end -->
 
 					<!--* Navigation -->
 					<div id="header-nav" class="collapse navbar-collapse">
-						<!-- Search Bar -->
+
+						<!--* Search Bar -->
 						<div class="search-bar mb-2 mb-lg-0 me-lg-2">
 							<input class="form-control" type="search" id="search-input" placeholder="Search" value="">
 							<span class="search-icon"><i class="fas fa-search"></i></span>
 						</div>
-						<!-- Search Bar end -->
+						<!--! Search Bar end -->
 
-						<ul class="navbar-nav me-auto">
-							<li><a href="explore-2.html">Explore</a></li>
-							<li><a href="about-us.html">About</a></li>
-							<li class="dropdown"> <a class="dropdown-toggle" href="#">Stats</a>
+						<!--* Nav Bar -->
+						<ul class="navbar-nav me-auto navbar-main-menu">
+							<li class="dropdown"> <a class="dropdown-toggle" href="main-deworking.html">Deworking</a>
 								<ul class="dropdown-menu">
+									<li><a class="dropdown-item" href="explore-deworking.html">Explore</a></li>
+									<li><a class="dropdown-item" href="forum-deworking.html">Forum</a></li>
+									<li><a class="dropdown-item" href="stats-deworking.html">Stats</a></li>
+									<li><a class="dropdown-item" href="activity-deworking.html">Activity</a></li>
+								</ul>
+							</li>
+							<li class="dropdown"> <a class="dropdown-toggle" href="#">Crowdfunding</a>
+								<ul class="dropdown-menu">
+									<li><a class="dropdown-item" href="explore-crowdfunding.html">Explore</a></li>
+									<li><a class="dropdown-item" href="forum.html">Forum</a></li>
+									<li><a class="dropdown-item" href="stats.html">Stats</a></li>
 									<li><a class="dropdown-item" href="activity.html">Activity</a></li>
-									<li><a class="dropdown-item" href="rankings.html">Rankings</a></li>
 								</ul>
 							</li>
-							<li class="dropdown"> <a class="dropdown-toggle" href="#">Ecosystem</a>
+							<li class="dropdown"> <a class="dropdown-toggle" href="#">Freelancers</a>
 								<ul class="dropdown-menu">
-									<li><a class="dropdown-item" href="#">Crowdfunding</a></li>
-									<li><a class="dropdown-item" href="#">Freelance</a></li>
-									<li><a class="dropdown-item" href="#">Chat</a></li>
-									<li><a class="dropdown-item" href="#">Workspace</a></li>
-									<li><a class="dropdown-item" href="#">Marketplace</a></li>
-									<li><a class="dropdown-item" href="#">Escrow</a></li>
-									<li><a class="dropdown-item" href="#">AI Deworking</a></li>
+									<li><a class="dropdown-item" href="explore-freelancers.html">Explore</a></li>
+									<li><a class="dropdown-item" href="forum.html">Forum</a></li>
+									<li><a class="dropdown-item" href="stats.html">Stats</a></li>
+									<li><a class="dropdown-item" href="activity.html">Activity</a></li>
 								</ul>
 							</li>
-							<li><a href="help.html">Learn</a></li>
+							<li class="dropdown"> <a class="dropdown-toggle" href="#">Jobs</a>
+								<ul class="dropdown-menu">
+									<li><a class="dropdown-item" href="explore-jobs.html">Explore</a></li>
+									<li><a class="dropdown-item" href="forum.html">Forum</a></li>
+									<li><a class="dropdown-item" href="stats.html">Stats</a></li>
+									<li><a class="dropdown-item" href="activity.html">Activity</a></li>
+								</ul>
+							</li>
+							<li class="dropdown"> <a class="dropdown-toggle" href="#">Marketplace</a>
+								<ul class="dropdown-menu">
+									<li><a class="dropdown-item" href="explore-marketplace.html">Explore</a></li>
+									<li><a class="dropdown-item" href="forum.html">Forum</a></li>
+									<li><a class="dropdown-item" href="stats.html">Stats</a></li>
+									<li><a class="dropdown-item" href="activity.html">Activity</a></li>
+								</ul>
+							</li>
+							<li class="dropdown"> <a class="dropdown-toggle" href="#">AI Hub</a>
+								<ul class="dropdown-menu">
+									<li><a class="dropdown-item" href="explore-ai-hub.html">Explore</a></li>
+									<li><a class="dropdown-item" href="forum.html">Forum</a></li>
+									<li><a class="dropdown-item" href="stats.html">Stats</a></li>
+									<li><a class="dropdown-item" href="activity.html">Activity</a></li>
+								</ul>
+							</li>
 						</ul>
+						<!--! Nav Bar -->
 					</div>
 					<!--! Navigation end -->
 
@@ -94,7 +125,7 @@
 				</div>
 			</nav>
 		</header>
-		<!-- Header End -->
+		<!--! Header End -->
 
 		<!-- Page Header-->
 		<section class="hero-wrap section">
@@ -322,18 +353,19 @@
 		</div>
 		<!-- Content end -->
 
-		<!-- Footer-->
+		<!--* Footer -->
 		<footer id="footer" class="pb-4">
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-6 col-md mb-3 mb-md-0">
 						<h4 class="text-3 text-muted text-uppercase fw-400 mb-3">Platform</h4>
 						<ul class="nav flex-column">
-							<li class="nav-item"> <a class="nav-link" href="#">Deworking</a></li>
-							<li class="nav-item"> <a class="nav-link" href="#">Marketplace</a></li>
-							<li class="nav-item"> <a class="nav-link" href="#">Freelance</a></li>
-							<li class="nav-item"> <a class="nav-link" href="#">Escrow</a></li>
-							<li class="nav-item"> <a class="nav-link" href="#">Crowdfunding</a></li>
+							<li class="nav-item"> <a class="nav-link" href="main-deworking.html">Deworking</a></li>
+							<li class="nav-item"> <a class="nav-link" href="main-crowdfunding.html">Crowdfunding</a></li>
+							<li class="nav-item"> <a class="nav-link" href="main-freelancers.html">Freelancers</a></li>
+							<li class="nav-item"> <a class="nav-link" href="main-jobs.html">Jobs</a></li>
+							<li class="nav-item"> <a class="nav-link" href="main-marketplace.html">Marketplace</a></li>
+							<li class="nav-item"> <a class="nav-link" href="main-ai-hub.html">AI Hub</a></li>
 						</ul>
 					</div>
 					<div class="col-sm-6 col-md mb-3 mb-md-0">
@@ -342,7 +374,7 @@
 							<li class="nav-item"> <a class="nav-link" href="#">Help Center</a></li>
 							<li class="nav-item"> <a class="nav-link" href="#">Blog</a></li>
 							<li class="nav-item"> <a class="nav-link" href="#">Docs</a></li>
-							<li class="nav-item"> <a class="nav-link" href="#">Contact Us</a></li>
+							<li class="nav-item"> <a class="nav-link" href="contact-us.html">Contact Us</a></li>
 							<li class="nav-item"> <a class="nav-link" href="#">Support</a></li>
 						</ul>
 					</div>
@@ -378,7 +410,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-lg">
-							<p class="text-center text-lg-start mb-2 mb-lg-0">Test version &copy; 2025 <a href="#">Deworking</a>. All Rights Reserved.</p>
+							<p class="text-center text-lg-start mb-2 mb-lg-0">Test version &copy; 2025 <a href="#">Agentic Web</a>. All Rights Reserved.</p>
 						</div>
 						<div class="col-lg d-lg-flex align-items-center justify-content-lg-end">
 							<ul class="nav justify-content-center">
@@ -391,7 +423,7 @@
 				</div>
 			</div>
 		</footer>
-		<!-- Footer end -->
+		<!--! Footer end -->
 
 	</div>
 	<!-- Document Wrapper end -->
